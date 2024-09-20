@@ -19,7 +19,7 @@ export default function page({}: Props) {
       <h3 className='font-urbanist mt-10 font_36_700 text-titleColor'>Medical Scribe Services</h3>
       <p className='mt-10 font-urbanist font_16_400 text-[#788094]'>
         At [Your Company Name], we provide professional Medical Scribe Services designed to improve
-        healthcare providers' efficiency by offloading the administrative burden of documentation.
+        healthcare providers&apos; efficiency by offloading the administrative burden of documentation.
         Our experienced medical scribes ensure that your practice maintains accurate and
         comprehensive patient records, allowing you to focus on what you do best—delivering quality
         care to your patients.
@@ -29,7 +29,7 @@ export default function page({}: Props) {
         A medical scribe is a professional trained to assist healthcare providers by documenting
         patient visits in real-time, entering the necessary information into electronic health
         records (EHR) systems. This allows healthcare providers to dedicate more time to patient
-        care and less time to paperwork, improving both the patient experience and the provider's
+        care and less time to paperwork, improving both the patient experience and the provider&apos;s
         workflow.
       </p>
       <h3 className='mt-[60px] font-urbanist font_36_700 text-titleColor'>Our Approach</h3>
@@ -92,7 +92,7 @@ export default function page({}: Props) {
         Ready to Improve Your Practice’s Efficiency?
       </h3>
       <p className='mt-10 mb-5 font-urbanist font_16_400 text-[#788094]'>
-        If you're ready to streamline your documentation process and focus more on patient care, our
+        If you&apos;re ready to streamline your documentation process and focus more on patient care, our
         Medical Scribe Services are here to help. Contact us today to learn more about how our
         scribes can transform your practice.
       </p>

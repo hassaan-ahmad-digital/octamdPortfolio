@@ -27,8 +27,8 @@ export function CustomAccordion({ items, className, type = 'single', itemsClassN
       >
         <AccordionTrigger className='w-full py-[30px] px-[30px] '>{trigger}</AccordionTrigger>
         <AccordionContent className='w-full pb-[30px] px-[30px]'>
-          {content.map(item => {
-            return <AccordionContentMapper content={item} />
+          {content.map((item, idx) => {
+            return <AccordionContentMapper key={idx} content={item} />
           })}
         </AccordionContent>
       </AccordionItem>
