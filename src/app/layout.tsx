@@ -2,19 +2,19 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Urbanist, DM_Sans, Outfit } from 'next/font/google'
 
-export const urbanist_init = Urbanist({
+const urbanist_init = Urbanist({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   variable: '--font-urbanist',
   display: 'swap'
 })
-export const dmSans_init = DM_Sans({
+const dmSans_init = DM_Sans({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   variable: '--font-dm_sans',
   display: 'swap'
 })
-export const outfit_init = Outfit({
+const outfit_init = Outfit({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   variable: '--font-outfit',
